@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Farewell Party 2020",
+      "date": "2020-10-14",
+      "time": "19:30",
+      "venue": "Auditorium",
+      "description": "A farewell for graduating batch. Please do come and show them your love. Food and drinks available for free.",
+      "organiserName": "Cultural Commitee",
+      "organiserEmail": "cc@iiitd.ac.in"
+    },
+    {
+      "id": 2,
+      "name": "Convocation Batch 2020",
+      "date": "2020-10-20",
+      "time": "13:30",
+      "venue": "Auditorium",
+      "description": "A convocation for graduating batch. Please come on time and show respect to the special guests.",
+      "organiserName": "Academic Department",
+      "organiserEmail": "acad@iiitd.ac.in"
+    },
+    {
+      "id": 3,
+      "name": "Halloween",
+      "date": "2020-10-26",
+      "time": "20:00",
+      "venue": "Event Hall",
+      "description": "This is not for the light hearted one. Spooky and scary. Please be dressed. Entry not permitted in daily casuals.",
+      "organiserName": "Cultural Commitee",
+      "organiserEmail": "cc@iiitd.ac.in"
+    }
+  ]
+}
