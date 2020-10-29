@@ -30,5 +30,179 @@
       "organiserName": "Cultural Commitee",
       "organiserEmail": "cc@iiitd.ac.in"
     }
+  ],
+  "quiz": [
+    {
+      "questions": [
+        null,
+        "1",
+        "2"
+      ],
+      "answers": [
+        null,
+        "1a",
+        "2a"
+      ],
+      "id": 4
+    },
+    {
+      "questions": [
+        null,
+        "First",
+        "Second",
+        "Third"
+      ],
+      "answers": [
+        null,
+        "fff",
+        "sss",
+        "ttt"
+      ],
+      "id": 5
+    },
+    {
+      "questions": [
+        null,
+        "Heloo",
+        "yayyy",
+        "yayyy",
+        "yayyy"
+      ],
+      "answers": [
+        null,
+        "firstansw",
+        "firstttt",
+        "firstttt",
+        "firstttt"
+      ],
+      "name": "Test1",
+      "id": 6
+    },
+    {
+      "questions": [],
+      "answers": [],
+      "name": null,
+      "id": 7
+    },
+    {
+      "questions": [
+        "",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answers": [
+        "",
+        "1a",
+        "2a",
+        "3a",
+        "4a"
+      ],
+      "name": "Test2",
+      "id": 8
+    },
+    {
+      "questions": [
+        "",
+        "1",
+        "2"
+      ],
+      "answers": [
+        "",
+        "1a",
+        "2a"
+      ],
+      "name": "test3",
+      "id": 9
+    },
+    {
+      "questions": [
+        "",
+        "1",
+        "14",
+        "12"
+      ],
+      "answers": [
+        "",
+        "1a",
+        "2a",
+        "13a"
+      ],
+      "name": "test4",
+      "id": 10
+    },
+    {
+      "questions": [
+        "1a",
+        "2a",
+        ""
+      ],
+      "answers": [
+        "kkkk",
+        "2aaaa",
+        ""
+      ],
+      "name": "Test1",
+      "id": 11
+    },
+    {
+      "questions": [
+        "first",
+        "second",
+        "third"
+      ],
+      "answers": [
+        "firstans",
+        "sans",
+        "tans"
+      ],
+      "name": "bda1ayu",
+      "id": 12
+    },
+    {
+      "questions": [
+        "1"
+      ],
+      "answers": [
+        "1a"
+      ],
+      "name": "Farewell Party",
+      "id": 13
+    }
+  ],
+  "answer": [
+    {
+      "answers": [
+        "",
+        "2",
+        "3a",
+        "3a",
+        "1ab"
+      ],
+      "name": "Tanya Raj",
+      "testId": "6",
+      "id": 1
+    },
+    {
+      "answers": [
+        "1a.",
+        "kkkk",
+        "1ab"
+      ],
+      "name": "Tanya Raj",
+      "testId": "11",
+      "id": 2
+    },
+    {
+      "answers": [
+        "firstans",
+        "tans",
+        "tans"
+      ],
+      "name": "ayu",
+      "testId": "12",
+      "id": 3
+    }
   ]
 }

@@ -9,6 +9,11 @@ import EventsEdit from "./events-edit.component";
 import EventsAdd from "./events-add.component";
 import EventsSearch from "./events-search.component";
 import EventShow from "./events-show.component";
+import Testadd from "./test-add.component";
+import TestView from "./test-view.component";
+import TestTake from "./test-take.component";
+import TestReView from "./test-review.component";
+import TestResult from "./test-result.component";
 export default class Main extends Component{
     render(){
         return(
@@ -38,6 +43,17 @@ export default class Main extends Component{
                         </div>
 
                     </li>
+                    <li className="nav-item dropdown active">
+                    <a className="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Quiz</a>
+                        <div className="dropdown-menu" aria-labelledby="dropdown01">
+
+                        <NavLink className = "dropdown-item" to='/quiz-add'>Create Quiz</NavLink>
+                        <NavLink className = "dropdown-item" to='/quiz-view'>Take a Quiz</NavLink>
+                        <NavLink className = "dropdown-item" to='/quiz-review'>Review</NavLink>
+            
+                        </div>
+
+                    </li>
                     <li className="nav-item active">
                         <NavLink className="nav-link" to='/login'>Login</NavLink>
                     </li>
@@ -58,6 +74,11 @@ export default class Main extends Component{
                 <Switch>
                     <Route exact path='/' component={Home}></Route>
                     <Route path='/events' component={Event}></Route>
+                    <Route path='/quiz-add' component={Testadd}></Route>
+                    <Route path='/quiz-view' component={TestView}></Route>
+                    <Route path='/test-start/:id' component={TestTake}></Route>
+                    <Route path='/test-result/:id/:testid' component={TestResult}></Route>
+                    <Route path='/quiz-review' component={TestReView}></Route>
                     <Route path='/events-detail/:id' component={EventsDetail}></Route>
                     <Route path='/events-edit/:id' component={EventsEdit}></Route>
                     <Route path='/events-add' component={EventsAdd}></Route>
